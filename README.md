@@ -38,7 +38,7 @@ python docgen.py --path=/path/to/ansible/role > /path/to/ansible/role/README.md
 
 * `--path`  Path to your role (defaults to current directory)
 * `--help`       Show this message and exit.
-```
+
 
 ## Example output:
 

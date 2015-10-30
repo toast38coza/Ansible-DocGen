@@ -1,11 +1,20 @@
 # Ansible-DocGen
 A python utility for generating Ansible README.md files for roles
 
+* Ansible-DocGen is tested in `python3`
+
+
 ## Installation
 
-(it's not yet in pypi)
+### PIP
 
-* Ansible-DocGen is tested in `python3`
+    pip install ansible-docgeneration
+    
+**Note if you installed it from pip, you will need to use it like so from the command line:**
+
+    python -m docgen
+
+### From Source
 
 ```
 git clone git@github.com:toast38coza/Ansible-DocGen.git
@@ -14,10 +23,6 @@ virtualenv-3.4 env -p python3
 source env/bin/activate
 pip install -r requirements.txt
 ```
-
-## Test 
-
-.. coming soon
 
 ## Usage
 
@@ -39,6 +44,9 @@ python docgen.py --path=/path/to/ansible/role > /path/to/ansible/role/README.md
 * `--path`  Path to your role (defaults to current directory)
 * `--help`       Show this message and exit.
 
+## Test 
+
+.. coming soon
 
 ## Example output:
 
@@ -83,3 +91,10 @@ A role for settings up a django application
     - { role: django, tags: django }
 
 ```
+
+### TODO
+
+* TODO: use pex to package virtualenv
+* Unit testing
+* Travis CI 
+* Better error handling

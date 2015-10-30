@@ -1,0 +1,15 @@
+language: python
+python:
+- '2.7'
+- '3.4'
+- pypy
+install: "pip install -r requirements.txt"
+script: python tests.py
+deploy:
+  provider: pypi
+  user: toast38coza
+  password:
+    secure: POuNKRNdbnc9xwgZtva+JPP/0gjoT69GjucxuE0AFH4jjP8+7hl7/9kEK+Ft21ucLkrxVXUduT44zZllA/zQEG0B7SiRKNSceNIHPvz54hP45jRtLFnBWAX9m7+9pRg8wBD5+EsVgzOkYasGcPyouurSD8Ni2/SaPCUTyPkCQR8=
+  on:
+    tags: true
+    repo: toast38coza/Ansible-DocGen

@@ -1,6 +1,8 @@
 # Ansible-DocGen
 A python utility for generating Ansible README.md files for roles
 
+[![Build Status](https://travis-ci.org/toast38coza/Ansible-DocGen.svg?branch=master)](https://travis-ci.org/toast38coza/Ansible-DocGen)
+
 * Ansible-DocGen is tested in `python3`
 
 

@@ -3,13 +3,13 @@ python:
 - '2.7'
 - '3.4'
 - pypy
-install: "pip install -r requirements.txt"
+install: pip install -r requirements.txt
 script: python tests.py
 deploy:
   provider: pypi
   user: toast38coza
   password:
-    secure: POuNKRNdbnc9xwgZtva+JPP/0gjoT69GjucxuE0AFH4jjP8+7hl7/9kEK+Ft21ucLkrxVXUduT44zZllA/zQEG0B7SiRKNSceNIHPvz54hP45jRtLFnBWAX9m7+9pRg8wBD5+EsVgzOkYasGcPyouurSD8Ni2/SaPCUTyPkCQR8=
+    secure: Lviu83PTQFy3LtpG0EF3JGmMokfor16PAY4yIL1ULNWbX51W1lYhz8wd7bX1Qzxhf4vAEm+BBBSvYi+jhuowMqk1v6TXbxS0Esz/eh92hy1uOjDDNFrH7Z/2+hg6qXLKIyGkrIEodx+u5QpSb+eU2T9tv3b3IO0z7R581MkNNsph0AQ4CRFOCdPQSbSvVzbV9d+V2mFWQR00rJPjAj1FEfBPKVHt1yqnj74aZNFlxoPk42mg3Y8/Mj2eYxga7fvuDNhSmE8E1LvsC5eaQS3D872xj91FBEMufkxAs6ErDb7F4oGwpJl/yTA1riwVw8HNs2+/UXVySICyr/gly23SEG0mAPXgHgbtBpTamDkCf4YQwYz+LW5R2EEyB+n5r0tA5B4KvZjTaFSuPT6UohYg2aBH0T3AMwbS20+vETUM2NCSWNMLWZ3rcwWbnh+QsJXi+566Rea9sh7U2oAJjKvLflFbpWT9KV0TsvmANnFm0Y7uhnT3THT1F8sXL54U4Jc/kcmGv8GMvuLD/+oDCVVz9G4hpFIWLfY+EOQDyxIDvP1//T7kkd2RqS9Es0tpCv+K77eKGSu1jlzyukKsid09XI0rtilqnSw39B1j1Ek6Ey49A0o0Md0YBRKicTw2ZIP9SgJFUGasSCoExvA8ThpzLFAKdc4x3ymHpID9DM2oIN4=
   on:
     tags: true
     repo: toast38coza/Ansible-DocGen

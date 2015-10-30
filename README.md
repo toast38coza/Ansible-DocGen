@@ -98,5 +98,4 @@ A role for settings up a django application
 
 * TODO: use pex to package virtualenv
 * Unit testing
-* Travis CI 
 * Better error handling
